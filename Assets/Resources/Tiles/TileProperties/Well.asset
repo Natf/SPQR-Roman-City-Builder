@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b1625099d424abb90206d8aab83927, type: 3}
+  m_Name: Well
+  m_EditorClassIdentifier: 
+  name: Well
+  description: This well will provide a basic water source for nearby homes. Wealthier
+    homes will desire a cleaner water source than this can provide.
+  buildCost: 30
+  clearCost: 0
+  hoverObject: {fileID: 1882532344743576, guid: 900016e8646ad4494be7106aba6eee7d,
+    type: 2}
+  buildingProperties: {fileID: 0}
+  tileHalfBox: {x: 0.5, y: 0.5}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa793c39882e4b9dae501ebc85c14e6, type: 3}
+  m_Name: FarmHouse
+  m_EditorClassIdentifier: 
+  walkerObject: {fileID: 1856454294296624, guid: 748f7267e4d0e47fcb84a9ba96d5f020,
+    type: 2}
+  workersRequired: 20
+  maxWalkers: 6
+  workerSpawnRate: 1
+  runningModel: {fileID: 1247230443328558, guid: 604a200491cf34317ae517038ecd0d8c,
+    type: 2}
+  notRunningModel: {fileID: 1247230443328558, guid: 604a200491cf34317ae517038ecd0d8c,
+    type: 2}
+  requiresRoadAccess: 0

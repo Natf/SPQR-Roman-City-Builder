@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b1625099d424abb90206d8aab83927, type: 3}
+  m_Name: BasicRoad
+  m_EditorClassIdentifier: 
+  name: Dirt Road
+  description: The simplest type of road. Offers no speed improvement over clear land
+    but will provide road access to buildings that require it.
+  buildCost: 10
+  clearCost: 0
+  hoverObject: {fileID: 1939087293974728, guid: d1fd4c879c7c84e9c87f051ff4ec569a,
+    type: 2}
+  buildingProperties: {fileID: 0}
+  tileHalfBox: {x: 0.5, y: 0.5}
